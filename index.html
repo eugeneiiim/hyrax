@@ -123,13 +123,6 @@
             hide: 0
           }
         });
-
-        // Look up the latest version of the library.
-        $.fn.artifactVersion('com.squareup', 'otto', function(version, url) {
-          $('.version').text(version);
-          $('.version-tag').text('v' + version);
-          $('.version-href').attr('href', url);
-        });
       });
     </script>
   </body>
