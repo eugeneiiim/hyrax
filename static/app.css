@@ -117,8 +117,12 @@ h3 {
   font-style: italic;
   color: #888;
   font-size: 20px;
-  padding-top: 115px;
+  padding-top: 55px;
   margin-top: 0;
+}
+
+.top-header {
+  padding-top: 115px !important;
 }
 
 h4 {
